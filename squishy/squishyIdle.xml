@@ -1,0 +1,1958 @@
+<?xml version="1.0" encoding="utf-8"?>
+<spritely
+	xmlns="http://schemas.kacmarcik.com/spritely/2009"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://schemas.kacmarcik.com/spritely/2009 spritely.xsd"
+	
+	version="2" name="project"
+	>
+
+	<options>
+		<option name="platform" value="gba"/>
+		<option name="sprite_show_pixelgrid" value="true"/>
+		<option name="sprite_show_tilegrid" value="true"/>
+		<option name="sprite_show_palette_index" value="false"/>
+		<option name="bgmap_show_tilegrid" value="true"/>
+		<option name="bgmap_show_screen_boundary" value="true"/>
+	</options>
+	<palettes>
+		<palette16 name="Pal16" id="0" desc="">
+			<subpalette16 id="0">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="100000"/><color rgb="001000"/><color rgb="1f1f1f"/><color rgb="101010"/><color rgb="1f0000"/><color rgb="001f00"/>
+				<color rgb="101000"/><color rgb="000010"/><color rgb="100010"/><color rgb="001010"/><color rgb="1f1f00"/><color rgb="00001f"/><color rgb="1f001f"/><color rgb="001f1f"/>
+			</subpalette16>
+			<subpalette16 id="1">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="190203"/><color rgb="041003"/><color rgb="08081b"/><color rgb="1f1e03"/><color rgb="041b1a"/>
+				<color rgb="151515"/><color rgb="0c0c0c"/><color rgb="110803"/><color rgb="1f1416"/><color rgb="111a10"/><color rgb="13141f"/><color rgb="1f1307"/><color rgb="110617"/>
+			</subpalette16>
+			<subpalette16 id="2">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="020202"/><color rgb="040404"/><color rgb="060606"/><color rgb="080808"/><color rgb="0a0a0a"/><color rgb="0c0c0c"/>
+				<color rgb="101010"/><color rgb="131313"/><color rgb="151515"/><color rgb="171717"/><color rgb="191919"/><color rgb="1b1b1b"/><color rgb="1d1d1d"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="3">
+				<color rgb="1f1f1f"/><color rgb="070300"/><color rgb="1f1f1f"/><color rgb="0e0415"/><color rgb="080011"/><color rgb="02071b"/><color rgb="111f0c"/><color rgb="1a140f"/>
+				<color rgb="1f1b1c"/><color rgb="18120d"/><color rgb="0e1b0b"/><color rgb="000115"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="4">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="5">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="6">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="7">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="8">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="9">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="10">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="11">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="12">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="13">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="14">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="15">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+		</palette16>
+	</palettes>
+	<spritesets>
+		<spriteset16 name="sprites" id="0" desc="" palette_id="0">
+			<sprite16 name="squishyIdle1" id="0" desc="" size="2x4" subpalette_id="3">
+				<tile id="0">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="1">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="2">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,4,4,4</tilerow>
+					<tilerow>0,0,0,0,4,3,3,3</tilerow>
+					<tilerow>0,0,0,4,3,3,3,3</tilerow>
+					<tilerow>0,0,0,4,3,3,9,9</tilerow>
+				</tile>
+				<tile id="3">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>4,4,4,0,0,0,0,0</tilerow>
+					<tilerow>3,3,3,4,0,0,0,0</tilerow>
+					<tilerow>3,3,3,3,4,0,0,0</tilerow>
+					<tilerow>9,9,3,3,4,0,0,0</tilerow>
+				</tile>
+				<tile id="4">
+					<tilerow>0,0,0,4,9,9,7,7</tilerow>
+					<tilerow>0,0,0,9,7,7,1,7</tilerow>
+					<tilerow>0,0,0,9,8,8,1,7</tilerow>
+					<tilerow>0,0,0,3,9,8,7,7</tilerow>
+					<tilerow>4,0,4,3,3,9,7,7</tilerow>
+					<tilerow>0,4,4,4,0,0,0,9</tilerow>
+					<tilerow>0,0,0,0,9,10,9,7</tilerow>
+					<tilerow>0,0,0,9,9,10,6,10</tilerow>
+				</tile>
+				<tile id="5">
+					<tilerow>7,7,9,9,4,0,0,0</tilerow>
+					<tilerow>7,1,7,7,9,0,0,0</tilerow>
+					<tilerow>7,1,8,8,9,0,0,0</tilerow>
+					<tilerow>7,7,8,9,3,0,0,0</tilerow>
+					<tilerow>7,7,9,3,3,4,0,4</tilerow>
+					<tilerow>7,0,0,0,4,4,4,0</tilerow>
+					<tilerow>7,7,10,9,0,0,0,0</tilerow>
+					<tilerow>10,6,10,9,9,0,0,0</tilerow>
+				</tile>
+				<tile id="6">
+					<tilerow>0,7,9,9,0,10,10,10</tilerow>
+					<tilerow>0,9,9,0,0,11,5,5</tilerow>
+					<tilerow>0,0,0,0,10,6,6,6</tilerow>
+					<tilerow>0,0,0,0,10,10,6,6</tilerow>
+					<tilerow>0,0,0,0,10,10,10,10</tilerow>
+					<tilerow>0,0,0,0,0,11,5,0</tilerow>
+					<tilerow>0,0,0,0,0,4,3,0</tilerow>
+					<tilerow>0,0,0,0,0,4,4,0</tilerow>
+				</tile>
+				<tile id="7">
+					<tilerow>10,10,10,0,9,9,7,0</tilerow>
+					<tilerow>5,5,5,0,0,9,9,0</tilerow>
+					<tilerow>6,6,6,10,0,0,0,0</tilerow>
+					<tilerow>6,6,10,10,0,0,0,0</tilerow>
+					<tilerow>10,10,10,10,0,0,0,0</tilerow>
+					<tilerow>0,11,5,0,0,0,0,0</tilerow>
+					<tilerow>0,4,3,0,0,0,0,0</tilerow>
+					<tilerow>0,4,4,0,0,0,0,0</tilerow>
+				</tile>
+			</sprite16>
+			<sprite16 name="squishyIdle2" id="1" desc="" size="2x4" subpalette_id="3">
+				<tile id="8">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="9">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="10">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,4,4,4</tilerow>
+					<tilerow>0,0,0,0,4,3,3,3</tilerow>
+					<tilerow>0,0,0,4,3,3,3,3</tilerow>
+					<tilerow>0,0,0,4,3,3,9,9</tilerow>
+				</tile>
+				<tile id="11">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>4,4,4,0,0,0,0,0</tilerow>
+					<tilerow>3,3,3,4,0,0,0,0</tilerow>
+					<tilerow>3,3,3,3,4,0,0,0</tilerow>
+					<tilerow>9,9,3,3,4,0,0,0</tilerow>
+				</tile>
+				<tile id="12">
+					<tilerow>0,0,0,4,9,9,7,7</tilerow>
+					<tilerow>0,0,0,9,7,7,1,7</tilerow>
+					<tilerow>0,0,0,9,8,8,1,7</tilerow>
+					<tilerow>0,0,0,3,9,8,7,7</tilerow>
+					<tilerow>4,0,4,3,3,9,7,7</tilerow>
+					<tilerow>0,4,4,4,0,0,0,9</tilerow>
+					<tilerow>0,0,0,0,9,10,9,7</tilerow>
+					<tilerow>0,0,0,9,9,10,6,10</tilerow>
+				</tile>
+				<tile id="13">
+					<tilerow>7,7,9,9,4,0,0,0</tilerow>
+					<tilerow>7,1,7,7,9,0,0,0</tilerow>
+					<tilerow>7,1,8,8,9,0,0,0</tilerow>
+					<tilerow>7,7,8,9,3,0,0,0</tilerow>
+					<tilerow>7,7,9,3,3,4,0,4</tilerow>
+					<tilerow>7,0,0,0,4,4,4,0</tilerow>
+					<tilerow>7,7,10,9,0,0,0,0</tilerow>
+					<tilerow>10,6,10,9,9,0,0,0</tilerow>
+				</tile>
+				<tile id="14">
+					<tilerow>0,7,9,9,0,10,10,10</tilerow>
+					<tilerow>0,9,9,0,0,11,5,5</tilerow>
+					<tilerow>0,0,0,0,10,6,6,6</tilerow>
+					<tilerow>0,0,0,0,10,10,6,6</tilerow>
+					<tilerow>0,0,0,0,10,10,10,10</tilerow>
+					<tilerow>0,0,0,0,0,11,5,0</tilerow>
+					<tilerow>0,0,0,0,0,4,3,0</tilerow>
+					<tilerow>0,0,0,0,0,4,4,0</tilerow>
+				</tile>
+				<tile id="15">
+					<tilerow>10,10,10,0,9,9,7,0</tilerow>
+					<tilerow>5,5,5,0,0,9,9,0</tilerow>
+					<tilerow>6,6,6,10,0,0,0,0</tilerow>
+					<tilerow>6,6,10,10,0,0,0,0</tilerow>
+					<tilerow>10,10,10,10,0,0,0,0</tilerow>
+					<tilerow>0,11,5,0,0,0,0,0</tilerow>
+					<tilerow>0,4,3,0,0,0,0,0</tilerow>
+					<tilerow>0,4,4,0,0,0,0,0</tilerow>
+				</tile>
+			</sprite16>
+			<sprite16 name="squishyIdle3" id="2" desc="" size="2x4" subpalette_id="3">
+				<tile id="16">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="17">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="18">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,4,4,4</tilerow>
+					<tilerow>0,0,0,0,4,3,3,3</tilerow>
+					<tilerow>0,0,0,4,3,3,3,3</tilerow>
+				</tile>
+				<tile id="19">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>4,4,4,0,0,0,0,0</tilerow>
+					<tilerow>3,3,3,4,0,0,0,0</tilerow>
+					<tilerow>3,3,3,3,4,0,0,0</tilerow>
+				</tile>
+				<tile id="20">
+					<tilerow>0,0,0,4,3,3,9,9</tilerow>
+					<tilerow>0,0,0,4,9,9,7,7</tilerow>
+					<tilerow>0,0,0,9,7,7,1,7</tilerow>
+					<tilerow>0,0,0,9,8,8,1,7</tilerow>
+					<tilerow>0,0,0,3,9,8,7,7</tilerow>
+					<tilerow>4,0,4,3,3,9,7,7</tilerow>
+					<tilerow>0,4,4,4,9,10,9,7</tilerow>
+					<tilerow>0,0,0,9,9,10,6,10</tilerow>
+				</tile>
+				<tile id="21">
+					<tilerow>9,9,3,3,4,0,0,0</tilerow>
+					<tilerow>7,7,9,9,4,0,0,0</tilerow>
+					<tilerow>7,1,7,7,9,0,0,0</tilerow>
+					<tilerow>7,1,8,8,9,0,0,0</tilerow>
+					<tilerow>7,7,8,9,3,0,0,0</tilerow>
+					<tilerow>7,7,9,3,3,4,0,4</tilerow>
+					<tilerow>7,7,10,9,4,4,4,0</tilerow>
+					<tilerow>10,6,10,9,9,0,0,0</tilerow>
+				</tile>
+				<tile id="22">
+					<tilerow>0,7,9,9,0,10,10,10</tilerow>
+					<tilerow>0,9,9,0,0,11,5,5</tilerow>
+					<tilerow>0,0,0,0,10,6,6,6</tilerow>
+					<tilerow>0,0,0,0,10,10,6,6</tilerow>
+					<tilerow>0,0,0,0,10,10,10,10</tilerow>
+					<tilerow>0,0,0,0,0,11,5,0</tilerow>
+					<tilerow>0,0,0,0,0,4,3,0</tilerow>
+					<tilerow>0,0,0,0,0,4,4,0</tilerow>
+				</tile>
+				<tile id="23">
+					<tilerow>10,10,10,0,9,9,7,0</tilerow>
+					<tilerow>5,5,5,0,0,9,9,0</tilerow>
+					<tilerow>6,6,6,10,0,0,0,0</tilerow>
+					<tilerow>6,6,10,10,0,0,0,0</tilerow>
+					<tilerow>10,10,10,10,0,0,0,0</tilerow>
+					<tilerow>0,11,5,0,0,0,0,0</tilerow>
+					<tilerow>0,4,3,0,0,0,0,0</tilerow>
+					<tilerow>0,4,4,0,0,0,0,0</tilerow>
+				</tile>
+			</sprite16>
+			<sprite16 name="squishyIdle4" id="3" desc="" size="2x4" subpalette_id="3">
+				<tile id="24">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="25">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="26">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,4,4,4</tilerow>
+					<tilerow>0,0,0,0,4,3,3,3</tilerow>
+					<tilerow>0,0,0,4,3,3,3,3</tilerow>
+				</tile>
+				<tile id="27">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>4,4,4,0,0,0,0,0</tilerow>
+					<tilerow>3,3,3,4,0,0,0,0</tilerow>
+					<tilerow>3,3,3,3,4,0,0,0</tilerow>
+				</tile>
+				<tile id="28">
+					<tilerow>0,0,0,4,3,3,9,9</tilerow>
+					<tilerow>0,0,0,4,9,9,7,7</tilerow>
+					<tilerow>0,0,0,9,7,7,1,7</tilerow>
+					<tilerow>0,0,0,9,8,8,1,7</tilerow>
+					<tilerow>0,0,0,3,9,8,7,7</tilerow>
+					<tilerow>4,0,4,3,3,9,7,7</tilerow>
+					<tilerow>0,4,4,4,0,0,0,9</tilerow>
+					<tilerow>0,0,0,0,9,10,9,7</tilerow>
+				</tile>
+				<tile id="29">
+					<tilerow>9,9,3,3,4,0,0,0</tilerow>
+					<tilerow>7,7,9,9,4,0,0,0</tilerow>
+					<tilerow>7,1,7,7,9,0,0,0</tilerow>
+					<tilerow>7,1,8,8,9,0,0,0</tilerow>
+					<tilerow>7,7,8,9,3,0,0,0</tilerow>
+					<tilerow>7,7,9,3,3,4,0,4</tilerow>
+					<tilerow>7,0,0,0,4,4,4,0</tilerow>
+					<tilerow>7,7,10,9,0,0,0,0</tilerow>
+				</tile>
+				<tile id="30">
+					<tilerow>0,0,0,9,9,10,6,10</tilerow>
+					<tilerow>0,7,9,9,0,11,5,5</tilerow>
+					<tilerow>0,9,9,0,10,6,6,6</tilerow>
+					<tilerow>0,0,0,0,10,10,6,6</tilerow>
+					<tilerow>0,0,0,0,10,10,10,10</tilerow>
+					<tilerow>0,0,0,0,0,11,5,0</tilerow>
+					<tilerow>0,0,0,0,0,4,3,0</tilerow>
+					<tilerow>0,0,0,0,0,4,4,0</tilerow>
+				</tile>
+				<tile id="31">
+					<tilerow>10,6,10,9,9,0,0,0</tilerow>
+					<tilerow>5,5,5,0,9,9,7,0</tilerow>
+					<tilerow>6,6,6,10,0,9,9,0</tilerow>
+					<tilerow>6,6,10,10,0,0,0,0</tilerow>
+					<tilerow>10,10,10,10,0,0,0,0</tilerow>
+					<tilerow>0,11,5,0,0,0,0,0</tilerow>
+					<tilerow>0,4,3,0,0,0,0,0</tilerow>
+					<tilerow>0,4,4,0,0,0,0,0</tilerow>
+				</tile>
+			</sprite16>
+			<sprite16 name="squishyIdle5" id="4" desc="" size="2x4" subpalette_id="3">
+				<tile id="32">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="33">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="34">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,4,4,4</tilerow>
+					<tilerow>0,0,0,0,4,3,3,3</tilerow>
+					<tilerow>0,0,0,4,3,3,3,3</tilerow>
+				</tile>
+				<tile id="35">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>4,4,4,0,0,0,0,0</tilerow>
+					<tilerow>3,3,3,4,0,0,0,0</tilerow>
+					<tilerow>3,3,3,3,4,0,0,0</tilerow>
+				</tile>
+				<tile id="36">
+					<tilerow>0,0,0,4,3,3,9,9</tilerow>
+					<tilerow>0,0,0,4,9,9,7,7</tilerow>
+					<tilerow>0,0,0,9,7,7,1,7</tilerow>
+					<tilerow>0,0,0,9,8,8,1,7</tilerow>
+					<tilerow>0,0,0,3,9,8,7,7</tilerow>
+					<tilerow>4,0,4,3,3,9,7,7</tilerow>
+					<tilerow>0,4,4,4,0,0,0,9</tilerow>
+					<tilerow>0,0,0,0,9,10,9,7</tilerow>
+				</tile>
+				<tile id="37">
+					<tilerow>9,9,3,3,4,0,0,0</tilerow>
+					<tilerow>7,7,9,9,4,0,0,0</tilerow>
+					<tilerow>7,1,7,7,9,0,0,0</tilerow>
+					<tilerow>7,1,8,8,9,0,0,0</tilerow>
+					<tilerow>7,7,8,9,3,0,0,0</tilerow>
+					<tilerow>7,7,9,3,3,4,0,4</tilerow>
+					<tilerow>7,0,0,0,4,4,4,0</tilerow>
+					<tilerow>7,7,10,9,0,0,0,0</tilerow>
+				</tile>
+				<tile id="38">
+					<tilerow>0,0,0,9,9,10,6,10</tilerow>
+					<tilerow>0,7,9,9,0,11,5,5</tilerow>
+					<tilerow>0,9,9,0,10,6,6,6</tilerow>
+					<tilerow>0,0,0,0,10,10,6,6</tilerow>
+					<tilerow>0,0,0,0,10,10,10,10</tilerow>
+					<tilerow>0,0,0,0,0,11,5,0</tilerow>
+					<tilerow>0,0,0,0,0,4,3,0</tilerow>
+					<tilerow>0,0,0,0,0,4,4,0</tilerow>
+				</tile>
+				<tile id="39">
+					<tilerow>10,6,10,9,9,0,0,0</tilerow>
+					<tilerow>5,5,5,0,9,9,7,0</tilerow>
+					<tilerow>6,6,6,10,0,9,9,0</tilerow>
+					<tilerow>6,6,10,10,0,0,0,0</tilerow>
+					<tilerow>10,10,10,10,0,0,0,0</tilerow>
+					<tilerow>0,11,5,0,0,0,0,0</tilerow>
+					<tilerow>0,4,3,0,0,0,0,0</tilerow>
+					<tilerow>0,4,4,0,0,0,0,0</tilerow>
+				</tile>
+			</sprite16>
+			<sprite16 name="squishyIdle6" id="5" desc="" size="2x4" subpalette_id="3">
+				<tile id="40">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="41">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="42">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,4,4,4</tilerow>
+					<tilerow>0,0,0,0,4,3,3,3</tilerow>
+					<tilerow>0,0,0,4,3,3,3,3</tilerow>
+				</tile>
+				<tile id="43">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>4,4,4,0,0,0,0,0</tilerow>
+					<tilerow>3,3,3,4,0,0,0,0</tilerow>
+					<tilerow>3,3,3,3,4,0,0,0</tilerow>
+				</tile>
+				<tile id="44">
+					<tilerow>0,0,0,4,3,3,9,9</tilerow>
+					<tilerow>0,0,0,4,9,9,7,7</tilerow>
+					<tilerow>0,0,0,9,7,7,1,7</tilerow>
+					<tilerow>0,0,0,9,8,8,1,7</tilerow>
+					<tilerow>0,0,0,3,9,8,7,7</tilerow>
+					<tilerow>4,0,4,3,3,9,7,7</tilerow>
+					<tilerow>0,4,4,4,9,10,9,7</tilerow>
+					<tilerow>0,0,0,9,9,10,6,10</tilerow>
+				</tile>
+				<tile id="45">
+					<tilerow>9,9,3,3,4,0,0,0</tilerow>
+					<tilerow>7,7,9,9,4,0,0,0</tilerow>
+					<tilerow>7,1,7,7,9,0,0,0</tilerow>
+					<tilerow>7,1,8,8,9,0,0,0</tilerow>
+					<tilerow>7,7,8,9,3,0,0,0</tilerow>
+					<tilerow>7,7,9,3,3,4,0,4</tilerow>
+					<tilerow>7,7,10,9,4,4,4,0</tilerow>
+					<tilerow>10,6,10,9,9,0,0,0</tilerow>
+				</tile>
+				<tile id="46">
+					<tilerow>0,7,9,9,0,10,10,10</tilerow>
+					<tilerow>0,9,9,0,0,11,5,5</tilerow>
+					<tilerow>0,0,0,0,10,6,6,6</tilerow>
+					<tilerow>0,0,0,0,10,10,6,6</tilerow>
+					<tilerow>0,0,0,0,10,10,10,10</tilerow>
+					<tilerow>0,0,0,0,0,11,5,0</tilerow>
+					<tilerow>0,0,0,0,0,4,3,0</tilerow>
+					<tilerow>0,0,0,0,0,4,4,0</tilerow>
+				</tile>
+				<tile id="47">
+					<tilerow>10,10,10,0,9,9,7,0</tilerow>
+					<tilerow>5,5,5,0,0,9,9,0</tilerow>
+					<tilerow>6,6,6,10,0,0,0,0</tilerow>
+					<tilerow>6,6,10,10,0,0,0,0</tilerow>
+					<tilerow>10,10,10,10,0,0,0,0</tilerow>
+					<tilerow>0,11,5,0,0,0,0,0</tilerow>
+					<tilerow>0,4,3,0,0,0,0,0</tilerow>
+					<tilerow>0,4,4,0,0,0,0,0</tilerow>
+				</tile>
+			</sprite16>
+			<sprite16 name="squishyWalkLeft" id="6" desc="" size="2x4" subpalette_id="3">
+				<tile id="48">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="49">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="50">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,4,4</tilerow>
+					<tilerow>0,0,0,0,0,4,3,3</tilerow>
+					<tilerow>0,0,0,0,9,9,3,3</tilerow>
+					<tilerow>0,0,0,0,9,7,9,9</tilerow>
+				</tile>
+				<tile id="51">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>4,4,0,0,0,0,0,0</tilerow>
+					<tilerow>3,3,4,0,0,0,0,0</tilerow>
+					<tilerow>3,3,3,4,0,0,0,0</tilerow>
+					<tilerow>3,3,3,3,4,0,0,0</tilerow>
+				</tile>
+				<tile id="52">
+					<tilerow>0,0,0,9,7,1,7,9</tilerow>
+					<tilerow>0,0,0,9,7,1,7,7</tilerow>
+					<tilerow>0,0,0,9,7,8,8,7</tilerow>
+					<tilerow>0,0,0,9,7,8,7,7</tilerow>
+					<tilerow>0,0,0,0,9,9,9,7</tilerow>
+					<tilerow>0,0,0,0,0,0,0,9</tilerow>
+					<tilerow>0,0,0,0,0,0,10,10</tilerow>
+					<tilerow>0,0,0,0,0,0,10,7</tilerow>
+				</tile>
+				<tile id="53">
+					<tilerow>3,3,3,3,4,0,0,0</tilerow>
+					<tilerow>9,3,3,3,4,0,0,0</tilerow>
+					<tilerow>9,3,3,3,4,0,0,0</tilerow>
+					<tilerow>7,3,3,4,0,0,0,0</tilerow>
+					<tilerow>7,7,4,3,4,0,4,0</tilerow>
+					<tilerow>7,4,0,4,4,4,0,0</tilerow>
+					<tilerow>7,10,0,0,0,0,0,0</tilerow>
+					<tilerow>7,10,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="54">
+					<tilerow>0,0,0,0,0,7,9,7</tilerow>
+					<tilerow>0,0,0,0,0,9,9,5</tilerow>
+					<tilerow>0,0,0,0,0,10,6,6</tilerow>
+					<tilerow>0,0,0,0,10,6,6,6</tilerow>
+					<tilerow>0,0,0,0,10,10,10,10</tilerow>
+					<tilerow>0,0,0,0,0,4,4,5</tilerow>
+					<tilerow>0,0,0,0,0,4,4,3</tilerow>
+					<tilerow>0,0,0,0,0,0,0,3</tilerow>
+				</tile>
+				<tile id="55">
+					<tilerow>6,10,9,0,0,0,0,0</tilerow>
+					<tilerow>5,11,9,0,0,0,0,0</tilerow>
+					<tilerow>6,6,10,11,0,0,0,0</tilerow>
+					<tilerow>6,6,6,10,0,0,0,0</tilerow>
+					<tilerow>10,10,10,10,0,0,0,0</tilerow>
+					<tilerow>5,0,0,0,0,0,0,0</tilerow>
+					<tilerow>3,0,0,0,0,0,0,0</tilerow>
+					<tilerow>3,0,0,0,0,0,0,0</tilerow>
+				</tile>
+			</sprite16>
+			<sprite16 name="squishyWalkLeft2" id="7" desc="" size="2x4" subpalette_id="3">
+				<tile id="56">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="57">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="58">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,4,4</tilerow>
+					<tilerow>0,0,0,0,0,4,3,3</tilerow>
+					<tilerow>0,0,0,0,9,9,3,3</tilerow>
+					<tilerow>0,0,0,0,9,7,9,9</tilerow>
+				</tile>
+				<tile id="59">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>4,4,0,0,0,0,0,0</tilerow>
+					<tilerow>3,3,4,0,0,0,0,0</tilerow>
+					<tilerow>3,3,3,4,0,0,0,0</tilerow>
+					<tilerow>3,3,3,3,4,0,0,0</tilerow>
+				</tile>
+				<tile id="60">
+					<tilerow>0,0,0,9,7,1,7,9</tilerow>
+					<tilerow>0,0,0,9,7,1,7,7</tilerow>
+					<tilerow>0,0,0,9,7,8,8,7</tilerow>
+					<tilerow>0,0,0,9,7,8,7,7</tilerow>
+					<tilerow>0,0,0,0,9,9,9,7</tilerow>
+					<tilerow>0,0,0,0,0,0,0,9</tilerow>
+					<tilerow>0,0,0,0,0,0,10,10</tilerow>
+					<tilerow>0,0,0,0,0,0,10,6</tilerow>
+				</tile>
+				<tile id="61">
+					<tilerow>3,3,3,3,4,0,0,0</tilerow>
+					<tilerow>9,3,3,3,4,0,0,0</tilerow>
+					<tilerow>9,3,3,3,4,0,0,0</tilerow>
+					<tilerow>7,3,3,4,0,0,0,0</tilerow>
+					<tilerow>7,7,4,3,4,0,4,0</tilerow>
+					<tilerow>7,4,0,4,4,4,0,0</tilerow>
+					<tilerow>7,10,0,0,0,0,0,0</tilerow>
+					<tilerow>7,10,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="62">
+					<tilerow>0,0,0,0,0,0,10,7</tilerow>
+					<tilerow>0,0,0,0,0,0,11,9</tilerow>
+					<tilerow>0,0,0,0,0,10,6,6</tilerow>
+					<tilerow>0,0,0,0,10,6,6,6</tilerow>
+					<tilerow>0,0,0,0,10,10,10,10</tilerow>
+					<tilerow>0,0,0,0,0,0,0,5</tilerow>
+					<tilerow>0,0,0,0,0,0,0,3</tilerow>
+					<tilerow>0,0,0,0,0,0,0,3</tilerow>
+				</tile>
+				<tile id="63">
+					<tilerow>9,10,11,0,0,0,0,0</tilerow>
+					<tilerow>9,11,11,0,0,0,0,0</tilerow>
+					<tilerow>6,6,10,11,0,0,0,0</tilerow>
+					<tilerow>6,6,6,10,0,0,0,0</tilerow>
+					<tilerow>10,10,10,10,0,0,0,0</tilerow>
+					<tilerow>5,0,0,0,0,0,0,0</tilerow>
+					<tilerow>3,0,0,0,0,0,0,0</tilerow>
+					<tilerow>3,0,0,0,0,0,0,0</tilerow>
+				</tile>
+			</sprite16>
+			<sprite16 name="squishyWalkLeft3" id="8" desc="" size="2x4" subpalette_id="3">
+				<tile id="64">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="65">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="66">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,4,4</tilerow>
+					<tilerow>0,0,0,0,0,4,3,3</tilerow>
+					<tilerow>0,0,0,0,9,9,3,3</tilerow>
+					<tilerow>0,0,0,0,9,7,9,9</tilerow>
+				</tile>
+				<tile id="67">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>4,4,0,0,0,0,0,0</tilerow>
+					<tilerow>3,3,4,0,0,0,0,0</tilerow>
+					<tilerow>3,3,3,4,0,0,0,0</tilerow>
+					<tilerow>3,3,3,3,4,0,0,0</tilerow>
+				</tile>
+				<tile id="68">
+					<tilerow>0,0,0,9,7,1,7,9</tilerow>
+					<tilerow>0,0,0,9,7,1,7,7</tilerow>
+					<tilerow>0,0,0,9,7,8,8,7</tilerow>
+					<tilerow>0,0,0,9,7,8,7,7</tilerow>
+					<tilerow>0,0,0,0,9,9,9,7</tilerow>
+					<tilerow>0,0,0,0,0,0,0,9</tilerow>
+					<tilerow>0,0,0,0,0,0,10,7</tilerow>
+					<tilerow>0,0,0,0,0,0,10,7</tilerow>
+				</tile>
+				<tile id="69">
+					<tilerow>3,3,3,3,4,0,0,0</tilerow>
+					<tilerow>9,3,3,3,4,0,0,0</tilerow>
+					<tilerow>9,3,3,3,4,0,0,0</tilerow>
+					<tilerow>7,3,3,4,0,0,0,0</tilerow>
+					<tilerow>7,7,4,3,4,0,4,0</tilerow>
+					<tilerow>7,4,0,4,4,4,0,0</tilerow>
+					<tilerow>10,10,0,0,0,0,0,0</tilerow>
+					<tilerow>7,10,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="70">
+					<tilerow>0,0,0,0,0,9,10,6</tilerow>
+					<tilerow>0,0,0,0,0,9,11,5</tilerow>
+					<tilerow>0,0,0,0,0,10,6,6</tilerow>
+					<tilerow>0,0,0,0,10,6,6,6</tilerow>
+					<tilerow>0,0,0,0,10,10,10,10</tilerow>
+					<tilerow>0,0,0,0,0,3,3,11</tilerow>
+					<tilerow>0,0,0,0,0,3,3,4</tilerow>
+					<tilerow>0,0,0,0,0,0,0,4</tilerow>
+				</tile>
+				<tile id="71">
+					<tilerow>7,9,7,0,0,0,0,0</tilerow>
+					<tilerow>5,9,9,0,0,0,0,0</tilerow>
+					<tilerow>6,6,10,11,0,0,0,0</tilerow>
+					<tilerow>6,6,6,10,0,0,0,0</tilerow>
+					<tilerow>10,10,10,10,0,0,0,0</tilerow>
+					<tilerow>11,0,0,0,0,0,0,0</tilerow>
+					<tilerow>4,0,0,0,0,0,0,0</tilerow>
+					<tilerow>4,0,0,0,0,0,0,0</tilerow>
+				</tile>
+			</sprite16>
+			<sprite16 name="squishyWalkLeft4" id="9" desc="" size="2x4" subpalette_id="3">
+				<tile id="72">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="73">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="74">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,4,4</tilerow>
+					<tilerow>0,0,0,0,0,4,3,3</tilerow>
+					<tilerow>0,0,0,0,9,9,3,3</tilerow>
+					<tilerow>0,0,0,0,9,7,9,9</tilerow>
+				</tile>
+				<tile id="75">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>4,4,0,0,0,0,0,0</tilerow>
+					<tilerow>3,3,4,0,0,0,0,0</tilerow>
+					<tilerow>3,3,3,4,0,0,0,0</tilerow>
+					<tilerow>3,3,3,3,4,0,0,0</tilerow>
+				</tile>
+				<tile id="76">
+					<tilerow>0,0,0,9,7,1,7,9</tilerow>
+					<tilerow>0,0,0,9,7,1,7,7</tilerow>
+					<tilerow>0,0,0,9,7,8,8,7</tilerow>
+					<tilerow>0,0,0,9,7,8,7,7</tilerow>
+					<tilerow>0,0,0,0,9,9,9,7</tilerow>
+					<tilerow>0,0,0,0,0,0,0,9</tilerow>
+					<tilerow>0,0,0,0,0,0,10,10</tilerow>
+					<tilerow>0,0,0,0,0,0,10,6</tilerow>
+				</tile>
+				<tile id="77">
+					<tilerow>3,3,3,3,4,0,0,0</tilerow>
+					<tilerow>9,3,3,3,4,0,0,0</tilerow>
+					<tilerow>9,3,3,3,4,0,0,0</tilerow>
+					<tilerow>7,3,3,4,0,0,0,0</tilerow>
+					<tilerow>7,7,4,3,4,0,4,0</tilerow>
+					<tilerow>7,4,0,4,4,4,0,0</tilerow>
+					<tilerow>7,10,0,0,0,0,0,0</tilerow>
+					<tilerow>7,10,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="78">
+					<tilerow>0,0,0,0,0,0,10,7</tilerow>
+					<tilerow>0,0,0,0,0,0,11,9</tilerow>
+					<tilerow>0,0,0,0,0,10,6,6</tilerow>
+					<tilerow>0,0,0,0,10,6,6,6</tilerow>
+					<tilerow>0,0,0,0,10,10,10,10</tilerow>
+					<tilerow>0,0,0,0,0,0,0,11</tilerow>
+					<tilerow>0,0,0,0,0,0,0,3</tilerow>
+					<tilerow>0,0,0,0,0,0,0,3</tilerow>
+				</tile>
+				<tile id="79">
+					<tilerow>9,10,11,0,0,0,0,0</tilerow>
+					<tilerow>9,11,11,0,0,0,0,0</tilerow>
+					<tilerow>6,6,10,11,0,0,0,0</tilerow>
+					<tilerow>6,6,6,10,0,0,0,0</tilerow>
+					<tilerow>10,10,10,10,0,0,0,0</tilerow>
+					<tilerow>11,0,0,0,0,0,0,0</tilerow>
+					<tilerow>3,0,0,0,0,0,0,0</tilerow>
+					<tilerow>3,0,0,0,0,0,0,0</tilerow>
+				</tile>
+			</sprite16>
+			<sprite16 name="squishyWalkRight" id="10" desc="" size="2x4" subpalette_id="3">
+				<tile id="80">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="81">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="82">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,4,4</tilerow>
+					<tilerow>0,0,0,0,0,4,3,3</tilerow>
+					<tilerow>0,0,0,0,4,3,3,3</tilerow>
+					<tilerow>0,0,0,4,3,3,3,3</tilerow>
+				</tile>
+				<tile id="83">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>4,4,0,0,0,0,0,0</tilerow>
+					<tilerow>3,3,4,0,0,0,0,0</tilerow>
+					<tilerow>3,3,9,9,0,0,0,0</tilerow>
+					<tilerow>9,9,7,9,0,0,0,0</tilerow>
+				</tile>
+				<tile id="84">
+					<tilerow>0,0,0,4,3,3,3,3</tilerow>
+					<tilerow>0,0,0,4,3,3,3,9</tilerow>
+					<tilerow>0,0,0,4,3,3,3,9</tilerow>
+					<tilerow>0,0,0,0,4,3,3,7</tilerow>
+					<tilerow>0,4,0,4,3,4,7,7</tilerow>
+					<tilerow>0,0,4,4,4,0,4,7</tilerow>
+					<tilerow>0,0,0,0,0,0,10,7</tilerow>
+					<tilerow>0,0,0,0,0,0,10,7</tilerow>
+				</tile>
+				<tile id="85">
+					<tilerow>9,7,1,7,9,0,0,0</tilerow>
+					<tilerow>7,7,1,7,9,0,0,0</tilerow>
+					<tilerow>7,8,8,7,9,0,0,0</tilerow>
+					<tilerow>7,7,8,7,9,0,0,0</tilerow>
+					<tilerow>7,9,9,9,0,0,0,0</tilerow>
+					<tilerow>9,0,0,0,0,0,0,0</tilerow>
+					<tilerow>10,10,0,0,0,0,0,0</tilerow>
+					<tilerow>7,10,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="86">
+					<tilerow>0,0,0,0,0,9,10,6</tilerow>
+					<tilerow>0,0,0,0,0,9,11,5</tilerow>
+					<tilerow>0,0,0,0,11,10,6,6</tilerow>
+					<tilerow>0,0,0,0,10,6,6,6</tilerow>
+					<tilerow>0,0,0,0,10,10,10,10</tilerow>
+					<tilerow>0,0,0,0,0,0,0,5</tilerow>
+					<tilerow>0,0,0,0,0,0,0,3</tilerow>
+					<tilerow>0,0,0,0,0,0,0,3</tilerow>
+				</tile>
+				<tile id="87">
+					<tilerow>7,9,7,0,0,0,0,0</tilerow>
+					<tilerow>5,9,9,0,0,0,0,0</tilerow>
+					<tilerow>6,6,10,0,0,0,0,0</tilerow>
+					<tilerow>6,6,6,10,0,0,0,0</tilerow>
+					<tilerow>10,10,10,10,0,0,0,0</tilerow>
+					<tilerow>5,4,4,0,0,0,0,0</tilerow>
+					<tilerow>3,4,4,0,0,0,0,0</tilerow>
+					<tilerow>3,0,0,0,0,0,0,0</tilerow>
+				</tile>
+			</sprite16>
+			<sprite16 name="squishyWalkRight2" id="11" desc="" size="2x4" subpalette_id="3">
+				<tile id="88">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="89">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="90">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,4,4</tilerow>
+					<tilerow>0,0,0,0,0,4,3,3</tilerow>
+					<tilerow>0,0,0,0,4,3,3,3</tilerow>
+					<tilerow>0,0,0,4,3,3,3,3</tilerow>
+				</tile>
+				<tile id="91">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>4,4,0,0,0,0,0,0</tilerow>
+					<tilerow>3,3,4,0,0,0,0,0</tilerow>
+					<tilerow>3,3,9,9,0,0,0,0</tilerow>
+					<tilerow>9,9,7,9,0,0,0,0</tilerow>
+				</tile>
+				<tile id="92">
+					<tilerow>0,0,0,4,3,3,3,3</tilerow>
+					<tilerow>0,0,0,4,3,3,3,9</tilerow>
+					<tilerow>0,0,0,4,3,3,3,9</tilerow>
+					<tilerow>0,0,0,0,4,3,3,7</tilerow>
+					<tilerow>0,4,0,4,3,4,7,7</tilerow>
+					<tilerow>0,0,4,4,4,0,4,7</tilerow>
+					<tilerow>0,0,0,0,0,0,10,7</tilerow>
+					<tilerow>0,0,0,0,0,0,10,7</tilerow>
+				</tile>
+				<tile id="93">
+					<tilerow>9,7,1,7,9,0,0,0</tilerow>
+					<tilerow>7,7,1,7,9,0,0,0</tilerow>
+					<tilerow>7,8,8,7,9,0,0,0</tilerow>
+					<tilerow>7,7,8,7,9,0,0,0</tilerow>
+					<tilerow>7,9,9,9,0,0,0,0</tilerow>
+					<tilerow>9,0,0,0,0,0,0,0</tilerow>
+					<tilerow>10,10,0,0,0,0,0,0</tilerow>
+					<tilerow>6,10,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="94">
+					<tilerow>0,0,0,0,0,11,10,9</tilerow>
+					<tilerow>0,0,0,0,0,11,11,9</tilerow>
+					<tilerow>0,0,0,0,11,10,6,6</tilerow>
+					<tilerow>0,0,0,0,10,6,6,6</tilerow>
+					<tilerow>0,0,0,0,10,10,10,10</tilerow>
+					<tilerow>0,0,0,0,0,0,0,5</tilerow>
+					<tilerow>0,0,0,0,0,0,0,3</tilerow>
+					<tilerow>0,0,0,0,0,0,0,3</tilerow>
+				</tile>
+				<tile id="95">
+					<tilerow>7,10,0,0,0,0,0,0</tilerow>
+					<tilerow>9,11,0,0,0,0,0,0</tilerow>
+					<tilerow>6,6,10,0,0,0,0,0</tilerow>
+					<tilerow>6,6,6,10,0,0,0,0</tilerow>
+					<tilerow>10,10,10,10,0,0,0,0</tilerow>
+					<tilerow>5,0,0,0,0,0,0,0</tilerow>
+					<tilerow>3,0,0,0,0,0,0,0</tilerow>
+					<tilerow>3,0,0,0,0,0,0,0</tilerow>
+				</tile>
+			</sprite16>
+			<sprite16 name="squishyWalkRight3" id="12" desc="" size="2x4" subpalette_id="3">
+				<tile id="96">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="97">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="98">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,4,4</tilerow>
+					<tilerow>0,0,0,0,0,4,3,3</tilerow>
+					<tilerow>0,0,0,0,4,3,3,3</tilerow>
+					<tilerow>0,0,0,4,3,3,3,3</tilerow>
+				</tile>
+				<tile id="99">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>4,4,0,0,0,0,0,0</tilerow>
+					<tilerow>3,3,4,0,0,0,0,0</tilerow>
+					<tilerow>3,3,9,9,0,0,0,0</tilerow>
+					<tilerow>9,9,7,9,0,0,0,0</tilerow>
+				</tile>
+				<tile id="100">
+					<tilerow>0,0,0,4,3,3,3,3</tilerow>
+					<tilerow>0,0,0,4,3,3,3,9</tilerow>
+					<tilerow>0,0,0,4,3,3,3,9</tilerow>
+					<tilerow>0,0,0,0,4,3,3,7</tilerow>
+					<tilerow>0,4,0,4,3,4,7,7</tilerow>
+					<tilerow>0,0,4,4,4,0,4,7</tilerow>
+					<tilerow>0,0,0,0,0,0,10,6</tilerow>
+					<tilerow>0,0,0,0,0,0,10,7</tilerow>
+				</tile>
+				<tile id="101">
+					<tilerow>9,7,1,7,9,0,0,0</tilerow>
+					<tilerow>7,7,1,7,9,0,0,0</tilerow>
+					<tilerow>7,8,8,7,9,0,0,0</tilerow>
+					<tilerow>7,7,8,7,9,0,0,0</tilerow>
+					<tilerow>7,9,9,9,0,0,0,0</tilerow>
+					<tilerow>9,0,0,0,0,0,0,0</tilerow>
+					<tilerow>7,10,0,0,0,0,0,0</tilerow>
+					<tilerow>7,10,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="102">
+					<tilerow>0,0,0,0,0,7,9,7</tilerow>
+					<tilerow>0,0,0,0,0,9,9,5</tilerow>
+					<tilerow>0,0,0,0,11,10,6,6</tilerow>
+					<tilerow>0,0,0,0,10,6,6,6</tilerow>
+					<tilerow>0,0,0,0,10,10,10,10</tilerow>
+					<tilerow>0,0,0,0,0,0,0,5</tilerow>
+					<tilerow>0,0,0,0,0,0,0,4</tilerow>
+					<tilerow>0,0,0,0,0,0,0,4</tilerow>
+				</tile>
+				<tile id="103">
+					<tilerow>6,10,9,0,0,0,0,0</tilerow>
+					<tilerow>5,11,9,0,0,0,0,0</tilerow>
+					<tilerow>6,6,10,0,0,0,0,0</tilerow>
+					<tilerow>6,6,6,10,0,0,0,0</tilerow>
+					<tilerow>10,10,10,10,0,0,0,0</tilerow>
+					<tilerow>5,3,3,0,0,0,0,0</tilerow>
+					<tilerow>4,3,3,0,0,0,0,0</tilerow>
+					<tilerow>4,0,0,0,0,0,0,0</tilerow>
+				</tile>
+			</sprite16>
+			<sprite16 name="squishyWalkRight4" id="13" desc="" size="2x4" subpalette_id="3">
+				<tile id="104">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="105">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="106">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,4,4</tilerow>
+					<tilerow>0,0,0,0,0,4,3,3</tilerow>
+					<tilerow>0,0,0,0,4,3,3,3</tilerow>
+					<tilerow>0,0,0,4,3,3,3,3</tilerow>
+				</tile>
+				<tile id="107">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>4,4,0,0,0,0,0,0</tilerow>
+					<tilerow>3,3,4,0,0,0,0,0</tilerow>
+					<tilerow>3,3,9,9,0,0,0,0</tilerow>
+					<tilerow>9,9,7,9,0,0,0,0</tilerow>
+				</tile>
+				<tile id="108">
+					<tilerow>0,0,0,4,3,3,3,3</tilerow>
+					<tilerow>0,0,0,4,3,3,3,9</tilerow>
+					<tilerow>0,0,0,4,3,3,3,9</tilerow>
+					<tilerow>0,0,0,0,4,3,3,7</tilerow>
+					<tilerow>0,4,0,4,3,4,7,7</tilerow>
+					<tilerow>0,0,4,4,4,0,4,7</tilerow>
+					<tilerow>0,0,0,0,0,0,10,7</tilerow>
+					<tilerow>0,0,0,0,0,0,10,7</tilerow>
+				</tile>
+				<tile id="109">
+					<tilerow>9,7,1,7,9,0,0,0</tilerow>
+					<tilerow>7,7,1,7,9,0,0,0</tilerow>
+					<tilerow>7,8,8,7,9,0,0,0</tilerow>
+					<tilerow>7,7,8,7,9,0,0,0</tilerow>
+					<tilerow>7,9,9,9,0,0,0,0</tilerow>
+					<tilerow>9,0,0,0,0,0,0,0</tilerow>
+					<tilerow>10,10,0,0,0,0,0,0</tilerow>
+					<tilerow>6,10,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="110">
+					<tilerow>0,0,0,0,0,11,10,9</tilerow>
+					<tilerow>0,0,0,0,0,11,11,9</tilerow>
+					<tilerow>0,0,0,0,11,10,6,6</tilerow>
+					<tilerow>0,0,0,0,10,6,6,6</tilerow>
+					<tilerow>0,0,0,0,10,10,10,10</tilerow>
+					<tilerow>0,0,0,0,0,0,0,5</tilerow>
+					<tilerow>0,0,0,0,0,0,0,3</tilerow>
+					<tilerow>0,0,0,0,0,0,0,3</tilerow>
+				</tile>
+				<tile id="111">
+					<tilerow>7,10,0,0,0,0,0,0</tilerow>
+					<tilerow>9,11,0,0,0,0,0,0</tilerow>
+					<tilerow>6,6,10,0,0,0,0,0</tilerow>
+					<tilerow>6,6,6,10,0,0,0,0</tilerow>
+					<tilerow>10,10,10,10,0,0,0,0</tilerow>
+					<tilerow>5,0,0,0,0,0,0,0</tilerow>
+					<tilerow>3,0,0,0,0,0,0,0</tilerow>
+					<tilerow>3,0,0,0,0,0,0,0</tilerow>
+				</tile>
+			</sprite16>
+			<sprite16 name="squishyWalkFront" id="14" desc="" size="2x4" subpalette_id="3">
+				<tile id="112">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="113">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="114">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,4,4,4</tilerow>
+					<tilerow>0,0,0,0,4,3,3,3</tilerow>
+					<tilerow>0,0,0,4,3,3,3,3</tilerow>
+					<tilerow>0,0,0,4,3,3,9,9</tilerow>
+				</tile>
+				<tile id="115">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>4,4,4,0,0,0,0,0</tilerow>
+					<tilerow>3,3,3,4,0,0,0,0</tilerow>
+					<tilerow>3,3,3,3,4,0,0,0</tilerow>
+					<tilerow>9,9,3,3,4,0,0,0</tilerow>
+				</tile>
+				<tile id="116">
+					<tilerow>0,0,0,4,9,9,7,7</tilerow>
+					<tilerow>0,0,0,9,7,7,1,7</tilerow>
+					<tilerow>0,0,0,9,8,8,1,7</tilerow>
+					<tilerow>0,0,0,3,9,8,7,7</tilerow>
+					<tilerow>4,0,4,3,3,9,7,7</tilerow>
+					<tilerow>0,4,4,4,0,0,0,9</tilerow>
+					<tilerow>0,0,0,0,9,10,9,7</tilerow>
+					<tilerow>0,0,0,9,9,10,6,10</tilerow>
+				</tile>
+				<tile id="117">
+					<tilerow>7,7,9,9,4,0,0,0</tilerow>
+					<tilerow>7,1,7,7,9,0,0,0</tilerow>
+					<tilerow>7,1,8,8,9,0,0,0</tilerow>
+					<tilerow>7,7,8,9,3,0,0,0</tilerow>
+					<tilerow>7,7,9,3,3,4,0,4</tilerow>
+					<tilerow>7,0,0,0,4,4,4,0</tilerow>
+					<tilerow>7,7,10,9,0,0,0,0</tilerow>
+					<tilerow>10,6,10,9,9,0,0,0</tilerow>
+				</tile>
+				<tile id="118">
+					<tilerow>0,7,9,9,0,10,10,10</tilerow>
+					<tilerow>0,9,9,0,0,11,5,5</tilerow>
+					<tilerow>0,0,0,0,10,6,6,6</tilerow>
+					<tilerow>0,0,0,0,10,10,6,6</tilerow>
+					<tilerow>0,0,0,0,10,10,10,10</tilerow>
+					<tilerow>0,0,0,0,0,11,5,0</tilerow>
+					<tilerow>0,0,0,0,0,4,3,0</tilerow>
+					<tilerow>0,0,0,0,0,4,4,0</tilerow>
+				</tile>
+				<tile id="119">
+					<tilerow>10,10,10,0,9,9,7,0</tilerow>
+					<tilerow>5,5,5,0,0,9,9,0</tilerow>
+					<tilerow>6,6,6,10,0,0,0,0</tilerow>
+					<tilerow>6,6,10,10,0,0,0,0</tilerow>
+					<tilerow>10,10,3,3,0,0,0,0</tilerow>
+					<tilerow>0,4,3,3,0,0,0,0</tilerow>
+					<tilerow>0,4,4,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+			</sprite16>
+			<sprite16 name="squishyWalkFront2" id="15" desc="" size="2x4" subpalette_id="3">
+				<tile id="120">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="121">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="122">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,4,4,4</tilerow>
+					<tilerow>0,0,0,0,4,3,3,3</tilerow>
+					<tilerow>0,0,0,4,3,3,3,3</tilerow>
+					<tilerow>0,0,0,4,3,3,9,9</tilerow>
+				</tile>
+				<tile id="123">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>4,4,4,0,0,0,0,0</tilerow>
+					<tilerow>3,3,3,4,0,0,0,0</tilerow>
+					<tilerow>3,3,3,3,4,0,0,0</tilerow>
+					<tilerow>9,9,3,3,4,0,0,0</tilerow>
+				</tile>
+				<tile id="124">
+					<tilerow>0,0,0,4,9,9,7,7</tilerow>
+					<tilerow>0,0,0,9,7,7,1,7</tilerow>
+					<tilerow>0,0,0,9,8,8,1,7</tilerow>
+					<tilerow>0,0,0,3,9,8,7,7</tilerow>
+					<tilerow>4,0,4,3,3,9,7,7</tilerow>
+					<tilerow>0,4,4,4,0,0,0,9</tilerow>
+					<tilerow>0,0,0,0,9,10,9,7</tilerow>
+					<tilerow>0,0,0,9,9,10,6,10</tilerow>
+				</tile>
+				<tile id="125">
+					<tilerow>7,7,9,9,4,0,0,0</tilerow>
+					<tilerow>7,1,7,7,9,0,0,0</tilerow>
+					<tilerow>7,1,8,8,9,0,0,0</tilerow>
+					<tilerow>7,7,8,9,3,0,0,0</tilerow>
+					<tilerow>7,7,9,3,3,4,0,4</tilerow>
+					<tilerow>7,0,0,0,4,4,4,0</tilerow>
+					<tilerow>7,7,10,9,0,0,0,0</tilerow>
+					<tilerow>10,6,10,9,9,0,0,0</tilerow>
+				</tile>
+				<tile id="126">
+					<tilerow>0,7,9,9,0,10,10,10</tilerow>
+					<tilerow>0,9,9,0,0,11,5,5</tilerow>
+					<tilerow>0,0,0,0,10,6,6,6</tilerow>
+					<tilerow>0,0,0,0,10,10,6,6</tilerow>
+					<tilerow>0,0,0,0,10,10,10,10</tilerow>
+					<tilerow>0,0,0,0,0,11,5,0</tilerow>
+					<tilerow>0,0,0,0,0,4,3,0</tilerow>
+					<tilerow>0,0,0,0,0,4,4,0</tilerow>
+				</tile>
+				<tile id="127">
+					<tilerow>10,10,10,0,9,9,7,0</tilerow>
+					<tilerow>5,5,5,0,0,9,9,0</tilerow>
+					<tilerow>6,6,6,10,0,0,0,0</tilerow>
+					<tilerow>6,6,10,10,0,0,0,0</tilerow>
+					<tilerow>10,10,10,10,0,0,0,0</tilerow>
+					<tilerow>0,11,5,0,0,0,0,0</tilerow>
+					<tilerow>0,4,3,0,0,0,0,0</tilerow>
+					<tilerow>0,4,4,0,0,0,0,0</tilerow>
+				</tile>
+			</sprite16>
+			<sprite16 name="squishyWalkFront3" id="16" desc="" size="2x4" subpalette_id="3">
+				<tile id="128">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="129">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="130">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,4,4,4</tilerow>
+					<tilerow>0,0,0,0,4,3,3,3</tilerow>
+					<tilerow>0,0,0,4,3,3,3,3</tilerow>
+					<tilerow>0,0,0,4,3,3,9,9</tilerow>
+				</tile>
+				<tile id="131">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>4,4,4,0,0,0,0,0</tilerow>
+					<tilerow>3,3,3,4,0,0,0,0</tilerow>
+					<tilerow>3,3,3,3,4,0,0,0</tilerow>
+					<tilerow>9,9,3,3,4,0,0,0</tilerow>
+				</tile>
+				<tile id="132">
+					<tilerow>0,0,0,4,9,9,7,7</tilerow>
+					<tilerow>0,0,0,9,7,7,1,7</tilerow>
+					<tilerow>0,0,0,9,8,8,1,7</tilerow>
+					<tilerow>0,0,0,3,9,8,7,7</tilerow>
+					<tilerow>4,0,4,3,3,9,7,7</tilerow>
+					<tilerow>0,4,4,4,0,0,0,9</tilerow>
+					<tilerow>0,0,0,0,9,10,9,7</tilerow>
+					<tilerow>0,0,0,9,9,10,6,10</tilerow>
+				</tile>
+				<tile id="133">
+					<tilerow>7,7,9,9,4,0,0,0</tilerow>
+					<tilerow>7,1,7,7,9,0,0,0</tilerow>
+					<tilerow>7,1,8,8,9,0,0,0</tilerow>
+					<tilerow>7,7,8,9,3,0,0,0</tilerow>
+					<tilerow>7,7,9,3,3,4,0,4</tilerow>
+					<tilerow>7,0,0,0,4,4,4,0</tilerow>
+					<tilerow>7,7,10,9,0,0,0,0</tilerow>
+					<tilerow>10,6,10,9,9,0,0,0</tilerow>
+				</tile>
+				<tile id="134">
+					<tilerow>0,7,9,9,0,10,10,10</tilerow>
+					<tilerow>0,9,9,0,0,11,5,5</tilerow>
+					<tilerow>0,0,0,0,10,6,6,6</tilerow>
+					<tilerow>0,0,0,0,10,10,6,6</tilerow>
+					<tilerow>0,0,0,0,3,3,10,10</tilerow>
+					<tilerow>0,0,0,0,3,3,4,0</tilerow>
+					<tilerow>0,0,0,0,0,4,3,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="135">
+					<tilerow>10,10,10,0,9,9,7,0</tilerow>
+					<tilerow>5,5,5,0,0,9,9,0</tilerow>
+					<tilerow>6,6,6,10,0,0,0,0</tilerow>
+					<tilerow>6,6,10,10,0,0,0,0</tilerow>
+					<tilerow>10,10,10,10,0,0,0,0</tilerow>
+					<tilerow>0,11,5,0,0,0,0,0</tilerow>
+					<tilerow>0,4,3,0,0,0,0,0</tilerow>
+					<tilerow>0,4,4,0,0,0,0,0</tilerow>
+				</tile>
+			</sprite16>
+			<sprite16 name="squishyWalkFront4" id="17" desc="" size="2x4" subpalette_id="3">
+				<tile id="136">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="137">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="138">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,4,4,4</tilerow>
+					<tilerow>0,0,0,0,4,3,3,3</tilerow>
+					<tilerow>0,0,0,4,3,3,3,3</tilerow>
+					<tilerow>0,0,0,4,3,3,9,9</tilerow>
+				</tile>
+				<tile id="139">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>4,4,4,0,0,0,0,0</tilerow>
+					<tilerow>3,3,3,4,0,0,0,0</tilerow>
+					<tilerow>3,3,3,3,4,0,0,0</tilerow>
+					<tilerow>9,9,3,3,4,0,0,0</tilerow>
+				</tile>
+				<tile id="140">
+					<tilerow>0,0,0,4,9,9,7,7</tilerow>
+					<tilerow>0,0,0,9,7,7,1,7</tilerow>
+					<tilerow>0,0,0,9,8,8,1,7</tilerow>
+					<tilerow>0,0,0,3,9,8,7,7</tilerow>
+					<tilerow>4,0,4,3,3,9,7,7</tilerow>
+					<tilerow>0,4,4,4,0,0,0,9</tilerow>
+					<tilerow>0,0,0,0,9,10,9,7</tilerow>
+					<tilerow>0,0,0,9,9,10,6,10</tilerow>
+				</tile>
+				<tile id="141">
+					<tilerow>7,7,9,9,4,0,0,0</tilerow>
+					<tilerow>7,1,7,7,9,0,0,0</tilerow>
+					<tilerow>7,1,8,8,9,0,0,0</tilerow>
+					<tilerow>7,7,8,9,3,0,0,0</tilerow>
+					<tilerow>7,7,9,3,3,4,0,4</tilerow>
+					<tilerow>7,0,0,0,4,4,4,0</tilerow>
+					<tilerow>7,7,10,9,0,0,0,0</tilerow>
+					<tilerow>10,6,10,9,9,0,0,0</tilerow>
+				</tile>
+				<tile id="142">
+					<tilerow>0,7,9,9,0,10,10,10</tilerow>
+					<tilerow>0,9,9,0,0,11,5,5</tilerow>
+					<tilerow>0,0,0,0,10,6,6,6</tilerow>
+					<tilerow>0,0,0,0,10,10,6,6</tilerow>
+					<tilerow>0,0,0,0,10,10,10,10</tilerow>
+					<tilerow>0,0,0,0,0,11,5,0</tilerow>
+					<tilerow>0,0,0,0,0,4,3,0</tilerow>
+					<tilerow>0,0,0,0,0,4,4,0</tilerow>
+				</tile>
+				<tile id="143">
+					<tilerow>10,10,10,0,9,9,7,0</tilerow>
+					<tilerow>5,5,5,0,0,9,9,0</tilerow>
+					<tilerow>6,6,6,10,0,0,0,0</tilerow>
+					<tilerow>6,6,10,10,0,0,0,0</tilerow>
+					<tilerow>10,10,10,10,0,0,0,0</tilerow>
+					<tilerow>0,11,5,0,0,0,0,0</tilerow>
+					<tilerow>0,4,3,0,0,0,0,0</tilerow>
+					<tilerow>0,4,4,0,0,0,0,0</tilerow>
+				</tile>
+			</sprite16>
+			<sprite16 name="squishyWalkBack" id="18" desc="" size="2x4" subpalette_id="3">
+				<tile id="144">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="145">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="146">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,4,4,4</tilerow>
+					<tilerow>0,0,0,0,4,3,4,3</tilerow>
+					<tilerow>0,0,0,4,3,3,3,4</tilerow>
+					<tilerow>0,0,0,4,3,3,4,3</tilerow>
+				</tile>
+				<tile id="147">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>4,4,4,0,0,0,0,0</tilerow>
+					<tilerow>3,4,3,4,0,0,0,0</tilerow>
+					<tilerow>4,3,3,3,4,0,0,0</tilerow>
+					<tilerow>3,4,3,3,4,0,0,0</tilerow>
+				</tile>
+				<tile id="148">
+					<tilerow>0,0,0,4,3,4,3,4</tilerow>
+					<tilerow>0,0,0,4,3,3,4,3</tilerow>
+					<tilerow>0,0,0,4,3,4,3,4</tilerow>
+					<tilerow>0,0,0,4,4,3,4,3</tilerow>
+					<tilerow>4,0,4,3,4,4,4,4</tilerow>
+					<tilerow>0,4,4,4,0,0,0,9</tilerow>
+					<tilerow>0,0,0,0,9,10,9,7</tilerow>
+					<tilerow>0,0,0,9,9,10,6,10</tilerow>
+				</tile>
+				<tile id="149">
+					<tilerow>4,3,4,3,4,0,0,0</tilerow>
+					<tilerow>3,4,3,3,4,0,0,0</tilerow>
+					<tilerow>4,3,4,3,4,0,0,0</tilerow>
+					<tilerow>3,4,3,4,4,0,0,0</tilerow>
+					<tilerow>4,4,4,4,3,4,0,4</tilerow>
+					<tilerow>7,0,0,0,4,4,4,0</tilerow>
+					<tilerow>7,7,10,9,0,0,0,0</tilerow>
+					<tilerow>10,6,10,9,9,0,0,0</tilerow>
+				</tile>
+				<tile id="150">
+					<tilerow>0,7,9,9,0,10,5,10</tilerow>
+					<tilerow>0,9,9,0,0,11,5,5</tilerow>
+					<tilerow>0,0,0,0,10,6,5,6</tilerow>
+					<tilerow>0,0,0,0,10,10,6,6</tilerow>
+					<tilerow>0,0,0,0,10,10,10,10</tilerow>
+					<tilerow>0,0,0,0,3,11,5,0</tilerow>
+					<tilerow>0,0,0,0,0,4,3,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="151">
+					<tilerow>10,5,10,0,9,9,7,0</tilerow>
+					<tilerow>5,5,5,0,0,9,9,0</tilerow>
+					<tilerow>6,5,6,10,0,0,0,0</tilerow>
+					<tilerow>6,6,10,10,0,0,0,0</tilerow>
+					<tilerow>10,10,10,10,0,0,0,0</tilerow>
+					<tilerow>0,11,5,0,0,0,0,0</tilerow>
+					<tilerow>0,4,3,0,0,0,0,0</tilerow>
+					<tilerow>0,4,4,0,0,0,0,0</tilerow>
+				</tile>
+			</sprite16>
+			<sprite16 name="squishyWalkBack2" id="19" desc="" size="2x4" subpalette_id="3">
+				<tile id="152">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="153">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="154">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,4,4,4</tilerow>
+					<tilerow>0,0,0,0,4,3,4,3</tilerow>
+					<tilerow>0,0,0,4,3,3,3,4</tilerow>
+					<tilerow>0,0,0,4,3,3,4,3</tilerow>
+				</tile>
+				<tile id="155">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>4,4,4,0,0,0,0,0</tilerow>
+					<tilerow>3,4,3,4,0,0,0,0</tilerow>
+					<tilerow>4,3,3,3,4,0,0,0</tilerow>
+					<tilerow>3,4,3,3,4,0,0,0</tilerow>
+				</tile>
+				<tile id="156">
+					<tilerow>0,0,0,4,3,4,3,4</tilerow>
+					<tilerow>0,0,0,4,3,3,4,3</tilerow>
+					<tilerow>0,0,0,4,3,4,3,4</tilerow>
+					<tilerow>0,0,0,4,4,3,4,3</tilerow>
+					<tilerow>4,0,4,3,4,4,4,4</tilerow>
+					<tilerow>0,4,4,4,0,0,0,9</tilerow>
+					<tilerow>0,0,0,0,9,10,9,7</tilerow>
+					<tilerow>0,0,0,9,9,10,6,10</tilerow>
+				</tile>
+				<tile id="157">
+					<tilerow>4,3,4,3,4,0,0,0</tilerow>
+					<tilerow>3,4,3,3,4,0,0,0</tilerow>
+					<tilerow>4,3,4,3,4,0,0,0</tilerow>
+					<tilerow>3,4,3,4,4,0,0,0</tilerow>
+					<tilerow>4,4,4,4,3,4,0,4</tilerow>
+					<tilerow>7,0,0,0,4,4,4,0</tilerow>
+					<tilerow>7,7,10,9,0,0,0,0</tilerow>
+					<tilerow>10,6,10,9,9,0,0,0</tilerow>
+				</tile>
+				<tile id="158">
+					<tilerow>0,7,9,9,0,10,5,10</tilerow>
+					<tilerow>0,9,9,0,0,11,5,5</tilerow>
+					<tilerow>0,0,0,0,10,6,5,6</tilerow>
+					<tilerow>0,0,0,0,10,10,6,6</tilerow>
+					<tilerow>0,0,0,0,10,10,10,10</tilerow>
+					<tilerow>0,0,0,0,0,11,5,0</tilerow>
+					<tilerow>0,0,0,0,0,4,3,0</tilerow>
+					<tilerow>0,0,0,0,0,4,4,0</tilerow>
+				</tile>
+				<tile id="159">
+					<tilerow>10,5,10,0,9,9,7,0</tilerow>
+					<tilerow>5,5,5,0,0,9,9,0</tilerow>
+					<tilerow>6,5,6,10,0,0,0,0</tilerow>
+					<tilerow>6,6,10,10,0,0,0,0</tilerow>
+					<tilerow>10,10,10,10,0,0,0,0</tilerow>
+					<tilerow>0,11,5,0,0,0,0,0</tilerow>
+					<tilerow>0,4,3,0,0,0,0,0</tilerow>
+					<tilerow>0,4,4,0,0,0,0,0</tilerow>
+				</tile>
+			</sprite16>
+			<sprite16 name="squishyWalkBack3" id="20" desc="" size="2x4" subpalette_id="3">
+				<tile id="160">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="161">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="162">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,4,4,4</tilerow>
+					<tilerow>0,0,0,0,4,3,4,3</tilerow>
+					<tilerow>0,0,0,4,3,3,3,4</tilerow>
+					<tilerow>0,0,0,4,3,3,4,3</tilerow>
+				</tile>
+				<tile id="163">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>4,4,4,0,0,0,0,0</tilerow>
+					<tilerow>3,4,3,4,0,0,0,0</tilerow>
+					<tilerow>4,3,3,3,4,0,0,0</tilerow>
+					<tilerow>3,4,3,3,4,0,0,0</tilerow>
+				</tile>
+				<tile id="164">
+					<tilerow>0,0,0,4,3,4,3,4</tilerow>
+					<tilerow>0,0,0,4,3,3,4,3</tilerow>
+					<tilerow>0,0,0,4,3,4,3,4</tilerow>
+					<tilerow>0,0,0,4,4,3,4,3</tilerow>
+					<tilerow>4,0,4,3,4,4,4,4</tilerow>
+					<tilerow>0,4,4,4,0,0,0,9</tilerow>
+					<tilerow>0,0,0,0,9,10,9,7</tilerow>
+					<tilerow>0,0,0,9,9,10,6,10</tilerow>
+				</tile>
+				<tile id="165">
+					<tilerow>4,3,4,3,4,0,0,0</tilerow>
+					<tilerow>3,4,3,3,4,0,0,0</tilerow>
+					<tilerow>4,3,4,3,4,0,0,0</tilerow>
+					<tilerow>3,4,3,4,4,0,0,0</tilerow>
+					<tilerow>4,4,4,4,3,4,0,4</tilerow>
+					<tilerow>7,0,0,0,4,4,4,0</tilerow>
+					<tilerow>7,7,10,9,0,0,0,0</tilerow>
+					<tilerow>10,6,10,9,9,0,0,0</tilerow>
+				</tile>
+				<tile id="166">
+					<tilerow>0,7,9,9,0,10,5,10</tilerow>
+					<tilerow>0,9,9,0,0,11,5,5</tilerow>
+					<tilerow>0,0,0,0,10,6,5,6</tilerow>
+					<tilerow>0,0,0,0,10,10,6,6</tilerow>
+					<tilerow>0,0,0,0,10,10,10,10</tilerow>
+					<tilerow>0,0,0,0,0,11,5,0</tilerow>
+					<tilerow>0,0,0,0,0,4,3,0</tilerow>
+					<tilerow>0,0,0,0,0,4,4,0</tilerow>
+				</tile>
+				<tile id="167">
+					<tilerow>10,5,10,0,9,9,7,0</tilerow>
+					<tilerow>5,5,5,0,0,9,9,0</tilerow>
+					<tilerow>6,5,6,10,0,0,0,0</tilerow>
+					<tilerow>6,6,10,10,0,0,0,0</tilerow>
+					<tilerow>10,10,10,10,0,0,0,0</tilerow>
+					<tilerow>0,11,5,3,0,0,0,0</tilerow>
+					<tilerow>0,4,4,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+			</sprite16>
+			<sprite16 name="squishyWalkBack4" id="21" desc="" size="2x4" subpalette_id="3">
+				<tile id="168">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="169">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="170">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,4,4,4</tilerow>
+					<tilerow>0,0,0,0,4,3,4,3</tilerow>
+					<tilerow>0,0,0,4,3,3,3,4</tilerow>
+					<tilerow>0,0,0,4,3,3,4,3</tilerow>
+				</tile>
+				<tile id="171">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>4,4,4,0,0,0,0,0</tilerow>
+					<tilerow>3,4,3,4,0,0,0,0</tilerow>
+					<tilerow>4,3,3,3,4,0,0,0</tilerow>
+					<tilerow>3,4,3,3,4,0,0,0</tilerow>
+				</tile>
+				<tile id="172">
+					<tilerow>0,0,0,4,3,4,3,4</tilerow>
+					<tilerow>0,0,0,4,3,3,4,3</tilerow>
+					<tilerow>0,0,0,4,3,4,3,4</tilerow>
+					<tilerow>0,0,0,4,4,3,4,3</tilerow>
+					<tilerow>4,0,4,3,4,4,4,4</tilerow>
+					<tilerow>0,4,4,4,0,0,0,9</tilerow>
+					<tilerow>0,0,0,0,9,10,9,7</tilerow>
+					<tilerow>0,0,0,9,9,10,6,10</tilerow>
+				</tile>
+				<tile id="173">
+					<tilerow>4,3,4,3,4,0,0,0</tilerow>
+					<tilerow>3,4,3,3,4,0,0,0</tilerow>
+					<tilerow>4,3,4,3,4,0,0,0</tilerow>
+					<tilerow>3,4,3,4,4,0,0,0</tilerow>
+					<tilerow>4,4,4,4,3,4,0,4</tilerow>
+					<tilerow>7,0,0,0,4,4,4,0</tilerow>
+					<tilerow>7,7,10,9,0,0,0,0</tilerow>
+					<tilerow>10,6,10,9,9,0,0,0</tilerow>
+				</tile>
+				<tile id="174">
+					<tilerow>0,7,9,9,0,10,5,10</tilerow>
+					<tilerow>0,9,9,0,0,11,5,5</tilerow>
+					<tilerow>0,0,0,0,10,6,5,6</tilerow>
+					<tilerow>0,0,0,0,10,10,6,6</tilerow>
+					<tilerow>0,0,0,0,10,10,10,10</tilerow>
+					<tilerow>0,0,0,0,0,11,5,0</tilerow>
+					<tilerow>0,0,0,0,0,4,3,0</tilerow>
+					<tilerow>0,0,0,0,0,4,4,0</tilerow>
+				</tile>
+				<tile id="175">
+					<tilerow>10,5,10,0,9,9,7,0</tilerow>
+					<tilerow>5,5,5,0,0,9,9,0</tilerow>
+					<tilerow>6,5,6,10,0,0,0,0</tilerow>
+					<tilerow>6,6,10,10,0,0,0,0</tilerow>
+					<tilerow>10,10,10,10,0,0,0,0</tilerow>
+					<tilerow>0,11,5,0,0,0,0,0</tilerow>
+					<tilerow>0,4,3,0,0,0,0,0</tilerow>
+					<tilerow>0,4,4,0,0,0,0,0</tilerow>
+				</tile>
+			</sprite16>
+		</spriteset16>
+	</spritesets>
+	<bgpalettes>
+		<palette16 name="BgPal16" id="0" desc="">
+			<subpalette16 id="0">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="100000"/><color rgb="001000"/><color rgb="1f1f1f"/><color rgb="101010"/><color rgb="1f0000"/><color rgb="001f00"/>
+				<color rgb="101000"/><color rgb="000010"/><color rgb="100010"/><color rgb="1f1f1f"/><color rgb="1f1f10"/><color rgb="1f1f1b"/><color rgb="1f191d"/><color rgb="1f1d1f"/>
+			</subpalette16>
+			<subpalette16 id="1">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="190203"/><color rgb="041003"/><color rgb="08081b"/><color rgb="1f1e03"/><color rgb="041b1a"/>
+				<color rgb="151515"/><color rgb="0c0c0c"/><color rgb="110803"/><color rgb="1f1416"/><color rgb="111a10"/><color rgb="13141f"/><color rgb="1f1307"/><color rgb="110617"/>
+			</subpalette16>
+			<subpalette16 id="2">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="020202"/><color rgb="040404"/><color rgb="060606"/><color rgb="080808"/><color rgb="0a0a0a"/><color rgb="0c0c0c"/>
+				<color rgb="101010"/><color rgb="131313"/><color rgb="151515"/><color rgb="171717"/><color rgb="191919"/><color rgb="1b1b1b"/><color rgb="1d1d1d"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="3">
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1e16"/><color rgb="1f1f1b"/><color rgb="1f1a1c"/><color rgb="1f1d1f"/>
+			</subpalette16>
+			<subpalette16 id="4">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="5">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="6">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="7">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="8">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="9">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="10">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="11">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="12">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="13">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="14">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="15">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>

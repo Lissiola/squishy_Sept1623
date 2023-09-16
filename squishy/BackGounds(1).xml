@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<spritely
+	xmlns="http://schemas.kacmarcik.com/spritely/2009"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://schemas.kacmarcik.com/spritely/2009 spritely.xsd"
+	
+	version="2" name="project"
+	>
+
+	<options>
+		<option name="platform" value="gba"/>
+		<option name="sprite_show_pixelgrid" value="true"/>
+		<option name="sprite_show_tilegrid" value="true"/>
+		<option name="sprite_show_palette_index" value="false"/>
+		<option name="bgmap_show_tilegrid" value="true"/>
+		<option name="bgmap_show_screen_boundary" value="true"/>
+	</options>
+	<palettes>
+		<palette16 name="Pal16" id="0" desc="">
+			<subpalette16 id="0">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="100000"/><color rgb="001000"/><color rgb="1f1f1f"/><color rgb="101010"/><color rgb="1f0000"/><color rgb="001f00"/>
+				<color rgb="101000"/><color rgb="000010"/><color rgb="100010"/><color rgb="001010"/><color rgb="1f1f00"/><color rgb="00001f"/><color rgb="1f001f"/><color rgb="001f1f"/>
+			</subpalette16>
+			<subpalette16 id="1">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="190203"/><color rgb="041003"/><color rgb="08081b"/><color rgb="1f1e03"/><color rgb="041b1a"/>
+				<color rgb="151515"/><color rgb="0c0c0c"/><color rgb="110803"/><color rgb="1f1416"/><color rgb="111a10"/><color rgb="13141f"/><color rgb="1f1307"/><color rgb="110617"/>
+			</subpalette16>
+			<subpalette16 id="2">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="020202"/><color rgb="040404"/><color rgb="060606"/><color rgb="080808"/><color rgb="0a0a0a"/><color rgb="0c0c0c"/>
+				<color rgb="101010"/><color rgb="131313"/><color rgb="151515"/><color rgb="171717"/><color rgb="191919"/><color rgb="1b1b1b"/><color rgb="1d1d1d"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="3">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="4">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="5">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="6">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="7">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="8">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="9">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="10">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="11">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="12">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="13">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="14">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="15">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+		</palette16>
+	</palettes>
+	<spritesets>
+		<spriteset16 name="sprites" id="0" desc="" palette_id="0">
+			<sprite16 name="S0" id="0" desc="" size="2x2" subpalette_id="0">
+				<tile id="0">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="1">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="2">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+				<tile id="3">
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+					<tilerow>0,0,0,0,0,0,0,0</tilerow>
+				</tile>
+			</sprite16>
+		</spriteset16>
+	</spritesets>
+	<bgpalettes>
+		<palette16 name="BgPal16" id="0" desc="">
+			<subpalette16 id="0">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="100000"/><color rgb="001000"/><color rgb="1f1f1f"/><color rgb="101010"/><color rgb="1f0000"/><color rgb="001f00"/>
+				<color rgb="101000"/><color rgb="000010"/><color rgb="100010"/><color rgb="001010"/><color rgb="1f1f00"/><color rgb="00001f"/><color rgb="1f001f"/><color rgb="001f1f"/>
+			</subpalette16>
+			<subpalette16 id="1">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="190203"/><color rgb="041003"/><color rgb="08081b"/><color rgb="1f1e03"/><color rgb="041b1a"/>
+				<color rgb="151515"/><color rgb="0c0c0c"/><color rgb="110803"/><color rgb="1f1416"/><color rgb="111a10"/><color rgb="13141f"/><color rgb="1f1307"/><color rgb="110617"/>
+			</subpalette16>
+			<subpalette16 id="2">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="020202"/><color rgb="040404"/><color rgb="060606"/><color rgb="080808"/><color rgb="0a0a0a"/><color rgb="0c0c0c"/>
+				<color rgb="101010"/><color rgb="131313"/><color rgb="151515"/><color rgb="171717"/><color rgb="191919"/><color rgb="1b1b1b"/><color rgb="1d1d1d"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="3">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1d1f"/><color rgb="1d181d"/><color rgb="1f1f15"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="4">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="5">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="6">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="7">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="8">
+				<color rgb="1f1f1f"/><color rgb="000000"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+				<color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/><color rgb="1f1f1f"/>
+			</subpalette16>
+			<subpalette16 id="9">
